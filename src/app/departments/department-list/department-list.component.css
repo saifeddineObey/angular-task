@@ -1,0 +1,36 @@
+.create-department-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.create-department-container .inputs-container input {
+    margin-right: 1rem;
+}
+
+#departments tr:hover {
+    background-color: rgb(127, 127, 246);
+}
+
+#edit-btn {
+    all: unset;
+    color: green;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+#delete-btn {
+    all: unset;
+    display: flex;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
